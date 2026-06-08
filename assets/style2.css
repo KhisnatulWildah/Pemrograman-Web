@@ -1,0 +1,50 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-top: 70px;
+
+    /* Pakai 1 saja (tidak warning) */
+    background: linear-gradient(
+        90deg,
+        rgb(96, 5, 64) 0%,
+        rgba(207, 67, 170, 0.555) 50%,
+        rgba(82, 2, 66, 0.701) 100%
+    );
+}
+
+/* Navbar */
+.navbar {
+    background-color: purple !important;
+}
+
+/* Content */
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lavender;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Box */
+.small-box {
+    width: 100px;
+    height: 100px;
+    background-color: #e10d97;
+    margin-top: 20px;
+}
+
+/* Footer */
+#footer {
+    color: white;
+}
