@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portofolio | Khisnatul Wildah</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+ <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">My<span>Portofolio</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home">
+    <div class="hero-text">
+      <p class="hero-greeting">Halo Saya <span>Khisnatul Wildah</span></p>
+      <h1 class="hero-role">Mahasiswa</h1>
+      <h2 class="hero-subject">Teknik Informatika</h2>
+      <p class="hero-desc">
+        Mahasiswa Program Studi Teknik Informatika Universitas Sains Al-Qur'an
+        yang berfokus pada pembelajaran dan pengembangan website.
+      </p>
+      <div class="hero-socials">
+        <a href="https://linkedin.com" target="_blank" class="social-btn">IN</a>
+        <a href="https://github.com" target="_blank" class="social-btn">GH</a>
+        <a href="https://instagram.com" target="_blank" class="social-btn">IG</a>
+      </div>
+      <a href="#" class="btn-cv">Download CV</a>
+    </div>
+    <div class="hero-image">
+      <div class="photo-circle">
+        <div class="photo-circle-inner">
+          <img src="Foto Saya.jpeg" alt="Foto Khisnatul Wildah" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+
+      <div class="about-img-wrap reveal-left">
+        <div class="about-photo">
+          <img src="Foto Saya.jpeg" alt="Foto Khisnatul Wildah" />
+        </div>
+        <div class="about-deco"></div>
+      </div>
+
+      <div class="about-content reveal-right">
+        <div class="section-header">
+          <p class="section-tag">-- Tentang Saya --</p>
+          <h2 class="section-title">Siapa Saya?</h2>
+        </div>
+        <p class="about-desc">
+          Halo! Saya Khisnatul Wildah, mahasiswa Program Studi Teknik Informatika Universitas Sains Al-Qur’an. 
+          Saya memiliki ketertarikan pada pengembangan website dan terus belajar untuk meningkatkan 
+          kemampuan melalui proses pembelajaran dan praktik.
+        </p>
+        <div class="about-info">
+          <div class="info-item">
+            <span class="info-label">Nama</span>
+            <span class="info-value">Khisnatul Wildah</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Status</span>
+            <span class="info-value">Mahasiswa Aktif</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Email</span>
+            <span class="info-value">khisnawildah@gmail.com</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Lokasi</span>
+            <span class="info-value">Leksono, Wonosobo</span>
+          </div>
+        </div>
+        <a href="#" class="btn-cv">Download CV</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-header reveal">
+      <p class="section-tag">-- Keahlian --</p>
+      <h2 class="section-title">Keahlian Saya</h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-name">Dasar Pemrograman</div>
+        <div class="skill-desc">Memahami dasar pemrograman web menggunakan HTML dan CSS untuk membuat struktur dan tampilan halaman website.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="65"></div></div>
+          <span class="skill-pct">65%</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">💻</div>
+        <div class="skill-name">Pembuatan Website Sederhana</div>
+        <div class="skill-desc">Mampu membuat website sederhana yang fungsional dan responsif menggunakan teknologi web dasar.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="60"></div></div>
+          <span class="skill-pct">60%</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🎨</div>
+        <div class="skill-name">Dasar UI/UX Design</div>
+        <div class="skill-desc">Memahami prinsip dasar desain antarmuka pengguna menggunakan Figma untuk membuat tampilan yang menarik.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="55"></div></div>
+          <span class="skill-pct">55%</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">📊</div>
+        <div class="skill-name">Microsoft Word & Excel</div>
+        <div class="skill-desc">Mampu mengoperasikan Microsoft Word untuk penulisan dokumen dan Microsoft Excel untuk pengolahan data dasar.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="70"></div></div>
+          <span class="skill-pct">70%</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+ <!-- HOBI -->
+  <section id="service">
+    <div class="section-header reveal">
+      <p class="section-tag">-- Hobi --</p>
+      <h2 class="section-title">Hobi Saya</h2>
+    </div>
+    <div class="service-grid">
+ 
+      <div class="service-card reveal">
+        <div class="service-icon-wrap">✍️</div>
+        <div class="service-title">Menulis</div>
+        <div class="service-desc">Saya senang menulis sebagai cara mengekspresikan pikiran dan perasaan, baik berupa catatan harian maupun cerita pendek.</div>
+      </div>
+ 
+      <div class="service-card reveal">
+        <div class="service-icon-wrap">🍳</div>
+        <div class="service-title">Memasak</div>
+        <div class="service-desc">Memasak adalah kegiatan yang saya nikmati karena bisa berkreasi dengan bahan-bahan sederhana menjadi hidangan yang lezat.</div>
+      </div>
+ 
+      <div class="service-card reveal">
+        <div class="service-icon-wrap">🎵</div>
+        <div class="service-title">Mendengarkan Musik</div>
+        <div class="service-desc">Musik adalah teman setia saya dalam berbagai suasana, baik saat belajar, bersantai, maupun mengerjakan tugas.</div>
+      </div>
+ 
+      <div class="service-card reveal">
+        <div class="service-icon-wrap">🌿</div>
+        <div class="service-title">Healing</div>
+        <div class="service-desc">Saya suka menyegarkan pikiran dengan jalan-jalan ke tempat yang tenang atau sekadar menikmati waktu untuk diri sendiri.</div>
+      </div>
+ 
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header reveal">
+      <p class="section-tag">-- Kontak --</p>
+      <h2 class="section-title">Hubungi Saya</h2>
+    </div>
+    <div class="contact-wrap">
+
+      <div class="contact-info reveal-left">
+        <h3>Silahkan Hubungi Saya</h3>
+        <p>Jangan ragu untuk menghubungi saya jika ada pertanyaan, ingin belajar bersama, atau sekadar menyapa. Saya selalu terbuka untuk hal-hal baru!</p>
+        <div class="contact-items">
+
+          <div class="contact-item">
+            <div class="contact-item-icon">📧</div>
+            <div class="contact-item-text">
+              <div class="label">Email</div>
+              <div class="value">khisnawildah@gmail.com</div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div class="contact-item-text">
+              <div class="label">Lokasi</div>
+              <div class="value">Leksono, Wonosobo</div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">📱</div>
+            <div class="contact-item-text">
+              <div class="label">WhatsApp</div>
+              <div class="value">+62 8x8-0xx1-7xx9</div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">🔗</div>
+            <div class="contact-item-text">
+              <div class="label">LinkedIn</div>
+              <div class="value">linkedin.com/in/khisnawil</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="contact-form reveal-right">
+        <div class="form-group">
+          <label>Nama Lengkap :</label>
+          <input type="text" placeholder="Masukkan nama kamu...." />
+        </div>
+        <div class="form-group">
+          <label>Email :</label>
+          <input type="email" placeholder="Masukkan email kamu...." />
+        </div>
+        <div class="form-group">
+          <label>Subjek :</label>
+          <input type="text" placeholder="Subjek pesan...." />
+        </div>
+        <div class="form-group">
+          <label>Pesan :</label>
+          <textarea placeholder="Tuliskan pesanmu di sini...."></textarea>
+        </div>
+        <button class="btn-send" onclick="sendMessage()">Kirim Pesan</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2024 <span>Khisnatul Wildah</span>. Dibuat dengan menggunakan HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => {
+        document.getElementById('navLinks').classList.remove('open');
+      });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          e.target.querySelectorAll('.skill-bar-fill').forEach(bar => {
+            bar.style.width = bar.dataset.width + '%';
+          });
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => {
+      observer.observe(el);
+    });
+
+    document.querySelectorAll('.skill-card').forEach(card => {
+      observer.observe(card);
+    });
+
+    function sendMessage() {
+      const inputs = document.querySelectorAll('.contact-form input, .contact-form textarea');
+      let allFilled = true;
+      inputs.forEach(i => { if (!i.value.trim()) allFilled = false; });
+      if (!allFilled) {
+        alert('Mohon lengkapi semua kolom terlebih dahulu!');
+        return;
+      }
+      alert('Pesan berhasil dikirim! Terima kasih, akan segera dibalas.');
+      inputs.forEach(i => i.value = '');
+    }
+  </script>
+
+</body>
+</html>
